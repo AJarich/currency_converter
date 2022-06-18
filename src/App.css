@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url('airport.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 35px;
+}
+
+input {
+  border: 1px solid #333;
+  border-radius: .3em;
+  padding: .3rem;
+  width: 7rem;
+}
+
+select {
+  margin-left: .5rem;
+  padding: .3rem;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.currentConverter {
+  background: #cfcfc4;
+  opacity: 0.9;
+  height: 300px;
+  width: 400px;
+  padding: 40px;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+}
